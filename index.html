@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Indie+Flower&family=Itim&family=Merienda&family=Roboto+Flex&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+
+    <nav class="navbar" data-aos="fade-down" data-aos-delay="1000" >
+        <ul class="heading">
+            <span class="head">Port</span>
+            <span class="ding">Folio</span>
+        </ul>
+        <ul class="list">
+            <li class="list-item"><a href="#" style="color: red;">Home</a></li>
+            <li class="list-item"><a href="#abt" style="transition: 0.5s;">About Me</a></li>
+            <li class="list-item"><a href="#profile">My Profiles</a></li>
+            <li class="list-item"><a href="#projects">Projects</a></li>
+            <li class="list-item"><a href="#getin">Contact Me</a></li>
+        </ul>
+        <div class="hamburger" id="hamb">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="name">
+            <h1 class="hello">Hello, My name is <span></span></h1> <br>
+            <h1 class="myname" >Ekansh Sharma <span></span></h1> <br>
+        </div>
+        <div class="photo" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000">
+            <img src="./images/profile-pic (2).png" alt="">
+        </div>
+    </div>
+
+
+    <div class="about" id="abt">
+        <div class="left">
+            <img src="./images/profile-pic (4).png" alt="" data-aos="fade-right" data-aos-duration="800" data-aos-offset="300" >
+            <button class="cv">Download CV</button>
+        </div>
+
+        <div class="insideabout">
+
+            <h1 class="mainhead" >About Me</h1>
+
+            <div class="wrapset">
+
+            
+            <div class="wrapper">
+               <div class="name2"></div>
+                <ul class="list2">
+                    <li> <span>Developer</span> </li>
+                    <li> <span>Programmer</span> </li>
+                    <li> <span>Engineer</span> </li>
+                    <li> <span>Freelancer</span> </li>
+                </ul>
+            </div>
+
+           </div>
+
+        <p class="para" data-aos="zoom-in" data-aos-duration="800" data-aos-offset="270">
+            I'm Ekansh, a passionate freelancer and programmer bringing you programming and design from the future. I am experienced in developing web applications including full front end design. <br> <br>
+            I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+        </p>
+
+        <div class="tab-titles">
+            <div class="tabsetter">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+            <div class="tabsetter">
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('hobby')">Hobbies</p>
+            </div>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>HTML | CSS | JavaScript</li>
+                <li>C/C++ | STL | OOPs</li>
+                <li>GIT | Github</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Front-end Development</li>
+            </ul>
+        </div>    
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li>3⭐ on CodeChef with highest rating 1614</li>
+                <li>Have solved more than 600+ problems</li>
+                <li>Done many projects on Development based on HTML,CSS & JavaScript</li>
+            </ul>
+        </div>    
+        <div class="tab-contents" id="education">
+            <ul>
+                <li> <h4>Panjab University</h4>
+                      <h5>Bachelor of Engineering- BE, Computer Science</h5>  
+                      <h5>2021 - 2025</h5>
+                </li>
+                <li><h4> Cleared JEE-Main Competitive Exam</h4></li>
+                <li> <h4>Simpkins School</h4>
+                      <h5>Higher Secondary</h5>  
+                      <h5>Grade - 77%</h5>
+                </li>
+                <li> <h4>Holman School</h4>
+                      <h5>High School</h5>  
+                      <h5>Grade - 82%</h5>
+                </li>
+            </ul>
+        </div>    
+        <div class="tab-contents" id="hobby">
+            <ul>
+                <li>Chess</li>
+                <li>Coding</li>
+                <li>Cricket</li>
+                <li>Football</li>
+            </ul>
+        </div>    
+            
+        </div>
+    </div>
+
+    <div class="main-profle-section" id="profile">
+        <h1 class="mainhead">My Profiles</h1>
+        <p>Check Out My Coding Profiles</p>
+        <div class="profile-section">
+            <div class="probox1" data-aos="zoom-in" data-aos-offset="200">
+            <a href="https://www.codechef.com/users/ekansh1309"> <img src="https://technofall.com/wp-content/uploads/2016/07/CodeChef-logo.jpeg" alt="" class="imgsetter"> </a>
+            <a href="https://leetcode.com/eku130902/"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ALRVNWjg--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://assets.leetcode.com/static_assets/public/images/LeetCode_Sharing.png" alt="" class="imgsetter"> </a>
+        </div>
+        <div class="probox2" data-aos="zoom-in" data-aos-offset="150">
+            <a href="https://www.codingninjas.com/codestudio/profile/b4267342-9dfc-4927-8c7c-ad30f933f476"> <img src="https://www.codingninjas.com/landing/wp-content/uploads/2022/11/CN-DP.jpg" alt="" class="imgsetter"> </a>
+            <a href="https://github.com/Ekansh1309"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGf99BDv1LI62JECSh7q4eoFqlaGkciriq5NEFh90R2XPy75zVR2lqLb2CGNgKtVgCu6k&usqp=CAU" alt="" class="imgsetter"> </a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="project-box" id="projects">
+        <h1 class="mainhead">Projects</h1>
+        <p class="projpara">Here are my some projects. For more projects, visit my Github Profile.</p>
+        <div class="project1" data-aos="flip-up" data-aos-duration="500" data-aos-offset="350">
+            <div class="projfirst">
+                <img src="https://img.freepik.com/free-icon/weather_318-631408.jpg" alt="">
+            </div>
+            <div class="profsecond">
+                <h1 class="minihead">Weather Website</h1>
+                <p>This web application display the current time and weather information of a selected city. The application allows the user to enter the city name and then fetches weather data from OpenWeatherMap API. The application then displays weather information and a table of additional information about the selected city. </p>
+                <a href="https://ekansh1309.github.io/Weather-App/" class="projlink"> <button class="projbutt">Visit Website</button> </a>
+            </div>
+        </div>
+        <div class="project1 even" data-aos="flip-down" data-aos-duration="500" data-aos-offset="350">
+            <div class="projfirst">
+                <img src="https://t3.ftcdn.net/jpg/03/33/90/46/360_F_333904627_tnCepUpc3Uynb6stmEbverr8HeWS2VZl.jpg" alt="">
+            </div>
+            <div class="profsecond">
+                <h1 class="minihead">Food Delivery Website</h1>
+                <p>This web application display the Front-end of how the Food Delivery Website looks like. This application is responsive. </p>
+                <a href="https://ekansh1309.github.io/Food-Website/" class="projlink"> <button class="projbutt">Visit Website</button> </a>
+            </div>
+        </div>
+        <div class="project1" data-aos="slide-down" data-aos-duration="500" data-aos-offset="300">
+            <div class="projfirst">
+                <img src="https://play-lh.googleusercontent.com/nMlqmaYTMn_N9N_lxh3GneyBataP-hLdIEriqGMfe1Fbf1MZxX8EwPk_0ZOV-_8_AMsv" alt="">
+            </div>
+            <div class="profsecond">
+                <h1 class="minihead">Drum Kit Website</h1>
+                <p>This website would work that we’ve got a number of keys on the webpage that represents different drums in a typical drum set and when you click on any of those buttons then you’ll get the corresponding sound of the drum. And in addition you can also use the keys on the keyboard to have a sound effect. </p>
+                <a href="https://ekansh1309.github.io/Drum-Kit/" class="projlink"> <button class="projbutt">Visit Website</button> </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-box" id="getin" >
+        <div class="conbox" data-aos="flip-up" data-aos-duration="500" data-aos-offset="200" >
+            <h1 class="mainhead">Get In Touch</h1>
+            <p data-aos="zoom-in" data-aos-duration="500" data-aos-offset="220" >I'm interested in freelancing opportunities - especially ambitious or large projects. However if you have other request or question, my inbox is always open for you. I'll try my best to get back to you</p>
+            <div class="icons">
+                <a href="https://github.com/Ekansh1309"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ekansh-sharma-53160b21b/"><i class="fa fa-linkedin-square" ></i></a>
+                <a href="mailto:eku130902@gmail.com"><i class="material-icons" >&#xe158;</i></a>
+                <a href="https://www.instagram.com/ekansh1309/"><i class="fa fa-instagram" ></i></a>
+                <a href="https://www.facebook.com/ekansh.sharma.568/"><i class="fa fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
